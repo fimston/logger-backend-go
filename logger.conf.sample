@@ -1,0 +1,21 @@
+rabbitmq.es.addr=localhost
+rabbitmq.es.port=5672
+rabbitmq.es.username=username
+rabbitmq.es.password=pwd
+rabbitmq.es.exchange.name=elasticsearch
+rabbitmq.es.queue.name=inbox
+rabbitmq.es.reconnection_interval=5s
+
+#if to send acknowledgement after message is processed. Default is true
+rabbitmq.es.acknowledge_message=true
+
+database.addr = localhost
+database.port = 56432
+database.username = user
+database.password = pwd
+database.dbname = db_name
+
+es.host = localhost
+es.port = 9200
+
+http.port = 6080
