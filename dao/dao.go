@@ -13,6 +13,7 @@ type AccountInfo struct {
 	payedTill      time.Time
 	totalTraffic   float64
 	allowedTraffic float64
+	messageTtl     time.Duration
 }
 
 func (self *AccountInfo) IndexAlias() string {
